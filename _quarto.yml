@@ -7,8 +7,25 @@ book:
   date: "28/10/2026"
   chapters:
     - index.qmd
+¿Vivir en una zona rural implica desventajas laborales incluso con la misma educación? Evidencia para Ecuador a partir de la ENEMDU 2025.
     - intro.qmd
+1.	Objetivos
+1.1 Objetivo general
+Analizar las diferencias en los ingresos laborales entre las zonas urbanas y rurales de Ecuador durante 2025, considerando el nivel educativo y otras características sociodemográficas.
+1.2	Objetivos específicos
+•	Comparar los ingresos laborales de la población urbana y rural según su nivel educativo.
+•	Examinar si las diferencias de ingresos entre ambas zonas se mantienen al considerar la edad y el sexo.
+•	Estimar la relación entre el área de residencia y el ingreso laboral mediante un modelo econométrico.
+
     - summary.qmd
+2.	Metodología
+El estudio tendrá un enfoque cuantitativo, alcance descriptivo y explicativo, y diseño no experimental de corte transversal. Se utilizarán datos secundarios de la Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU) de Ecuador para el año 2025, publicada por el INEC. El análisis se realizará en Stata 17.
+Primero, se describirán los ingresos laborales por área urbana y rural y nivel educativo. Después, se compararán personas con niveles educativos similares y se estimará una regresión para analizar la relación entre residencia rural e ingreso laboral, controlando por edad y sexo. Se revisará el diccionario de la encuesta para confirmar los nombres y códigos de las variables, y se considerarán los factores de expansión y el diseño muestral según la documentación del INEC.
+3. Variables
+Variable independiente: área de residencia (urbana o rural).
+Variable dependiente: ingreso laboral individual.
+Variables de control: nivel educativo, edad y sexo.
+
     - references.qmd
 
 bibliography: references.bib
@@ -21,6 +38,10 @@ format:
   pdf:
     documentclass: scrreprt
 
+<<<<<<< HEAD
 editor: editor
 
+=======
+editor: visual
+>>>>>>> 74cd489a5ca9d5361d7e2cd17790c452cd8d23b2
 
